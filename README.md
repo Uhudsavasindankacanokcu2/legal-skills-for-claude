@@ -44,3 +44,9 @@ These skills help you **understand, review, and draft** agreements — they are 
 ⭐ **Star this repo** if it saved you a lawyer's hourly rate on a first pass. New free skills added regularly.
 
 *Made for the Claude Skills ecosystem.*
+
+## 🔗 More Claude Skill Packs
+
+- 💸 [Finance Skills](https://github.com/Uhudsavasindankacanokcu2/finance-skills-for-claude) — cash flow, runway, invoices, budgets, pricing
+- 🧑‍💼 [Recruiting & HR Skills](https://github.com/Uhudsavasindankacanokcu2/recruiting-skills-for-claude) — JDs, resume screening, interviews
+- 🛒 [E-commerce Seller Skills](https://github.com/Uhudsavasindankacanokcu2/ecommerce-skills-for-claude) — listings, reviews, ad spend
