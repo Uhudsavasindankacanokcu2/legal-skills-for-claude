@@ -25,6 +25,54 @@ Each skill is a single `SKILL.md` — drop it in `~/.claude/skills/` and Claude 
 
 ---
 
+
+---
+
+## 👀 See it in action
+
+**You paste a clause from a contract you're about to sign** (you're the freelancer/vendor):
+
+```
+Section 9. Limitation of Liability. In no event shall Client be liable to
+Contractor for any damages. Contractor shall indemnify and hold harmless
+Client from any and all claims, losses, and liabilities arising from the
+services, without limitation. This Agreement shall auto-renew for successive
+12-month terms unless terminated with 90 days' written notice.
+```
+
+**Claude returns** (contract-reviewer skill, reviewing from YOUR side):
+
+---
+
+**Verdict:** 🔴 **Several one-sided terms — push back before signing.** Three clauses shift all risk to you.
+
+| Clause | Tier | What it means for YOU | Suggested change |
+|--------|------|----------------------|------------------|
+| §9 Liability (one-way) | 🔴 High | Client owes you *nothing* for any damages — even if they cause them. Totally one-sided. | Make it **mutual**: cap both sides' liability at fees paid in the prior 12 months. |
+| §9 Indemnity (unlimited) | 🔴 High | You cover *all* claims "without limitation" — potentially far more than the contract is worth. | Limit to **third-party claims arising from your breach**; exclude Client-caused issues. |
+| §9 Auto-renew + 90-day notice | 🟡 Watch | You're locked in yearly unless you remember to cancel 90 days early. Easy to get trapped. | Shorten to **30 days' notice**, or add a renewal reminder obligation. |
+
+**Top 3 things to negotiate (copy-paste redlines):**
+
+1. **Mutual liability cap:**
+   > "Neither party shall be liable to the other for indirect or consequential damages. Each party's total liability shall not exceed the fees paid under this Agreement in the twelve (12) months preceding the claim."
+
+2. **Limited, mutual indemnity:**
+   > "Each party shall indemnify the other against third-party claims arising from the indemnifying party's breach of this Agreement or infringement of third-party IP."
+
+3. **Reasonable termination:**
+   > "Either party may decline renewal with thirty (30) days' written notice before the end of the then-current term."
+
+**The framing to send them:** *"I'd like these to be mutual rather than one-directional — standard market terms that protect both of us. Happy to keep everything else as-is."* (Mutual + market-standard lands far better than "I don't like this.")
+
+*Contract analysis to help you negotiate — not legal advice. For a high-value deal, have an attorney review the final language.*
+
+---
+
+> The skill **quoted the actual clause** for every flag and never invented a risk. It reviewed from *your* side — the same clause is graded differently depending on which party you are.
+
+---
+
 ## 💎 Pro pack — 6 skills
 
 **[Legal Skills Pro →](GUMROAD_LINK_HERE)** adds:
